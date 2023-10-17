@@ -1,0 +1,3 @@
+[submodule "go_tour"]
+	path = go_tour
+	url = https://github.com/atotto/go-tour-jp.git
