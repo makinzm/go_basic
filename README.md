@@ -1,5 +1,9 @@
 # Go Basic
 
+- https://man7.org/linux/man-pages/man1/find.1.html
+- https://man7.org/linux/man-pages/man1/grep.1.html
+
+
 ```
 go run <path.go>
 go build <path.go>
@@ -33,6 +37,40 @@ fmt.Printf("%T %v", variable_name, variable_name)
 
 - defer: https://go-tour-jp.appspot.com/flowcontrol/13
 
-# Next
+- pointer: https://go-tour-jp.appspot.com/moretypes/1
+    - ./go_tour/content/moretypes/pointers.go
 
-https://go-tour-jp.appspot.com/moretypes/1
+- struct pointer: https://go-tour-jp.appspot.com/moretypes/4
+    - Is it ok to use `V.x`
+
+- array: https://go-tour-jp.appspot.com/moretypes/6
+- slice: https://go-tour-jp.appspot.com/moretypes/7
+    - which are like references to array: https://go-tour-jp.appspot.com/moretypes/8
+    - unnamed struct: https://go-tour-jp.appspot.com/moretypes/9
+    - length and capacity: https://go-tour-jp.appspot.com/moretypes/11
+        - panic: runtime error: slice bounds out of range [:10] with capacity 4
+        - If you use [hoge:], capacity tends to decrease
+    - make: https://go-tour-jp.appspot.com/moretypes/13
+        - https://pkg.go.dev/golang.org/x/tour/pic#Show
+    - nil: https://go-tour-jp.appspot.com/moretypes/12
+    - append: https://go-tour-jp.appspot.com/moretypes/15
+
+- for and range: https://go-tour-jp.appspot.com/moretypes/16
+
+- map: 
+    - how-to-create
+        - make: https://go-tour-jp.appspot.com/moretypes/19
+        - Don't use make: https://go-tour-jp.appspot.com/moretypes/20
+    - how-to-get
+        - https://go-tour-jp.appspot.com/moretypes/22
+        - 危ない匂い: https://go-tour-jp.appspot.com/moretypes/22
+
+- (other) godoc
+    - `GOPATH=$(pwd)`
+    - おそらく　moduleを作っていないため何も見れない
+
+- function values:
+    - https://go-tour-jp.appspot.com/moretypes/24
+
+# Next
+- https://go-tour-jp.appspot.com/methods/1
