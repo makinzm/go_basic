@@ -26,6 +26,13 @@ fmt.Printf("%T %v", variable_name, variable_name)
 ```
 - initial value: https://go-tour-jp.appspot.com/basics/12
 
----
+- not while but for: https://go-tour-jp.appspot.com/flowcontrol/4
 
-# next: https://go-tour-jp.appspot.com/flowcontrol/1
+- switch: ./go_tour/content/flowcontrol/switch.go
+    - it can make if-sentence simpler
+
+- defer: https://go-tour-jp.appspot.com/flowcontrol/13
+
+# Next
+
+https://go-tour-jp.appspot.com/moretypes/1
