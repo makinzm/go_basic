@@ -22,6 +22,7 @@ variable_name variable_type
 // not variable_name: variable_type
 // 
 ```
+- function: https://go-tour-jp.appspot.com/basics/4
 - naked return: https://go-tour-jp.appspot.com/basics/7
 - implicity type: `:=`: https://go-tour-jp.appspot.com/basics/10
 
@@ -72,5 +73,32 @@ fmt.Printf("%T %v", variable_name, variable_name)
 - function values:
     - https://go-tour-jp.appspot.com/moretypes/24
 
-# Next
-- https://go-tour-jp.appspot.com/methods/1
+- method for struct
+    - https://go-tour-jp.appspot.com/methods/1
+- method for type
+    - https://go-tour-jp.appspot.com/methods/3
+- pointer to change field values
+    - https://go-tour-jp.appspot.com/methods/4
+
+- 感想: https://go-tour-jp.appspot.com/methods/8
+    - 自分たちで気をつける必要があるため面倒そう
+
+- interface
+    - https://go-tour-jp.appspot.com/methods/9
+    - implemented implicitly: https://go-tour-jp.appspot.com/methods/10
+    - not substituted yet -> nil: https://go-tour-jp.appspot.com/methods/12
+
+- anytime
+    - empty interface: https://go-tour-jp.appspot.com/methods/14
+
+- type switch
+    - https://go-tour-jp.appspot.com/methods/16
+
+- errors
+    - https://go-tour-jp.appspot.com/methods/19
+
+- io
+    - https://go-tour-jp.appspot.com/methods/21
+
+# NEXT
+- https://go-tour-jp.appspot.com/methods/23
