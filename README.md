@@ -100,5 +100,16 @@ fmt.Printf("%T %v", variable_name, variable_name)
 - io
     - https://go-tour-jp.appspot.com/methods/21
 
-# NEXT
-- https://go-tour-jp.appspot.com/methods/23
+- method
+    - https://go-tour-jp.appspot.com/methods/23
+
+- go routine
+    - https://go-tour-jp.appspot.com/concurrency/1
+    - channels: how to distinguish? : https://go-tour-jp.appspot.com/concurrency/2
+        - buffer: https://go-tour-jp.appspot.com/concurrency/3
+        - close: https://go-tour-jp.appspot.com/concurrency/4
+        - select: https://go-tour-jp.appspot.com/concurrency/5
+            - default: https://go-tour-jp.appspot.com/concurrency/6
+
+# Next
+- https://go-tour-jp.appspot.com/concurrency/7
