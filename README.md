@@ -77,7 +77,7 @@ fmt.Printf("%T %v", variable_name, variable_name)
     - https://go-tour-jp.appspot.com/methods/1
 - method for type
     - https://go-tour-jp.appspot.com/methods/3
-- pointer to change field values
+- pointer receivers to change field values
     - https://go-tour-jp.appspot.com/methods/4
 
 - 感想: https://go-tour-jp.appspot.com/methods/8
@@ -112,4 +112,4 @@ fmt.Printf("%T %v", variable_name, variable_name)
             - default: https://go-tour-jp.appspot.com/concurrency/6
 
 # Next
-- https://go-tour-jp.appspot.com/concurrency/7
+- https://go-tour-jp.appspot.com/concurrency/9
